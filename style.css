@@ -1,0 +1,125 @@
+html {
+  background-color: rgb(240, 164, 98); /* Set the background color */
+}
+
+canvas {
+  display: block;
+  margin-top: 0px;
+  margin-left: 200px;
+  padding-bottom: 150px;
+
+}
+
+/*Start algorithm button*/
+.start-button {
+  position: absolute;
+  top: 500px;
+  left: 960px;
+  padding: 20px 30px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+/*Change layout button*/
+.change-button {
+  position: absolute;
+  top: 500px;
+  left: 1195px;
+  padding: 20px 30px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+
+/*Open info button*/
+.modal-button {
+  position: absolute;
+  top: 640px;
+  left: 960px;
+  padding: 20px 175px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.content {
+  background-color: rgb(240, 164, 98);
+  font-family: Arial, sans-serif;
+  color: #3358ad;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.7em;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+h3{
+  padding-top: 20px;
+  margin-left: 450px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.message {
+  margin-top: 5px;
+  padding-left: 590px;
+  font-size: 1.5em;
+  color: #ff0000;
+}
+
+
+.mainblock{
+  position: relative;
+  font-family: Arial, sans-serif;
+  background-color: #3e8fd7;
+  padding: 0px;
+  margin: 0px;
+}
+
+.font{
+  font-family: 'Bitter' !important;
+  color: aliceblue;
+  font-weight:bolder
+}
+
+.font1{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(7, 62, 94);
+}
+
+.img{
+  border-radius: 26%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+
