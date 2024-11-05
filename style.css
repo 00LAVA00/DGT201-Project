@@ -5,7 +5,7 @@ html {
 canvas {
   display: block;
   margin-top: 0px;
-  margin-left: 200px;
+  margin-left: 30px;
   padding-bottom: 150px;
 
 }
@@ -121,5 +121,55 @@ button:hover {
 }
 
 
+
+
+
+/* Style for the info box */
+.info-box {
+  background-color: #f0f0f0; /* Grey background */
+  border: 4px solid #3e8fd7; /* Blue border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  width: 390px; /* Set width to fit the content */
+  margin-left: 310px;
+}
+
+
+/* List style for the color explanation */
+.info-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-box ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the color samples */
+.color-sample {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Specific colors for each sample */
+.closed-cell {
+  border-radius: 0; /* Remove border-radius for square */
+  background-color: #fcee21; /* Light Yellow for Closed Cells */
+}
+
+.open-cell {
+  border-radius: 0; /* Remove border-radius for square */
+  background-color: #82ff5c; /* Light Green for Open Cells */
+}
+
+.path-line {
+  border-radius: 50%;
+  background-color: #ff7d41; /* Orange for Path Line */
+}
 
 
