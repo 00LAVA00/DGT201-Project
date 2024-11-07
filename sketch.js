@@ -42,8 +42,6 @@ function setup() {
   randomSeed(3);
   console.log('A*');
 
-  openModal();
-
   // "Start Algorithm" button
   let startButton = createButton('Start Algorithm');
   startButton.mousePressed(startAlgorithm);
@@ -59,6 +57,9 @@ function setup() {
   modalButton.mousePressed(openModal);
   modalButton.class('modal-button');
 
+  // opening info at start
+  openModal();
+  
   // grid cell size
   w = width / cols;
   h = height / rows;
