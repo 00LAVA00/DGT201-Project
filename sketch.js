@@ -42,6 +42,8 @@ function setup() {
   randomSeed(3);
   console.log('A*');
 
+  openModal();
+
   // "Start Algorithm" button
   let startButton = createButton('Start Algorithm');
   startButton.mousePressed(startAlgorithm);
